@@ -1,0 +1,47 @@
+/* chess.css */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+h1 {
+    margin: 20px;
+}
+
+#game-setup {
+    margin-bottom: 20px;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(8, 60px);
+    grid-template-rows: repeat(8, 60px);
+    border: 2px solid #333;
+}
+
+.square {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.black {
+    background-color: #ccc;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: red;
+}

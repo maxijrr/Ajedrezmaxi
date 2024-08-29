@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajedrez</title>
+    <link rel="stylesheet" href="chess.css">
+</head>
+<body>
+    <h1>Ajedrez</h1>
+    <div id="game-setup">
+        <label for="color">Color:</label>
+        <select id="color">
+            <option value="white">Blanco</option>
+            <option value="black">Negro</option>
+        </select>
+        <label for="difficulty">Dificultad:</label>
+        <select id="difficulty">
+            <option value="easy">Fácil</option>
+            <option value="medium">Medio</option>
+            <option value="hard">Difícil</option>
+        </select>
+        <button id="start-game">Iniciar Juego</button>
+    </div>
+    <div id="board"></div>
+    <div id="message"></div>
+    <script src="chess.js"></script>
+</body>
+</html>
